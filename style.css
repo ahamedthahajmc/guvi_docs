@@ -1,0 +1,61 @@
+.dis-block{
+    display: block;
+}
+.field{
+    font-family: cursive;
+}
+.field:after {
+    content: '*';
+    color: red;
+}
+.wid-365{
+    width: 365px;
+}
+.star-rating::before{
+    content:'\f148';
+}
+.fa-star{
+    color:#FFB500;
+}
+.margin_bottom{
+    margin-bottom:15px;
+}
+
+th{
+    text-align: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+td{
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+}
+th, td{
+    height: 25px;
+    width: 120px;
+}
+.grey-bg{
+    background-color:#f2f2f2;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+textarea{
+    width: 55%;
+    height: 88px;
+}
+button[type="submit"]{
+    width:100px;
+    height:40px;
+}
+.flex{
+    display: flex;
+}
+sub{
+    font-family: monospace;
+}
+input[name="first"]{
+    margin-right: 10px;
+}
